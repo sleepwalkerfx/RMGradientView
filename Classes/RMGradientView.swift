@@ -10,18 +10,20 @@ import UIKit
 
 @IBDesignable
 class RMGradientView: UIView {
-
+    
     let gradientLayer = CAGradientLayer()
     @IBInspectable var startColor:UIColor = UIColor.yellow {
         didSet{
             configure()
         }
     }
+    
     @IBInspectable var midColor:UIColor = UIColor.orange {
         didSet{
             configure()
         }
     }
+    
     @IBInspectable var endColor:UIColor = UIColor.red {
         didSet{
             configure()
@@ -41,7 +43,6 @@ class RMGradientView: UIView {
     }
     
     func setup() {
-        
         layer.addSublayer(gradientLayer)
     }
     
@@ -52,7 +53,7 @@ class RMGradientView: UIView {
         gradientLayer.startPoint = CGPoint(x: 0, y:0 )
         gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
         gradientLayer.locations = [0.25,0.5,0.75]
-
+        
         switch direction % 5 {
         case 0:
             gradientLayer.startPoint = CGPoint(x: 0, y:0 )
@@ -66,18 +67,16 @@ class RMGradientView: UIView {
         case 3:
             gradientLayer.startPoint = CGPoint(x: 1, y:0 )
             gradientLayer.endPoint = CGPoint(x: 0.0, y: 1.0)
-
+            
         default:
             gradientLayer.startPoint = CGPoint(x: 1, y:0 )
             gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.0)
         }
-        
     }
-    
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-         setup()
+        setup()
     }
     
     override init(frame: CGRect) {
