@@ -1,4 +1,4 @@
-# RMGradientView  A Simple Gradient View for iOS
+  
 
 # Pod Installation 
 
