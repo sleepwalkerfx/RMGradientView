@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "A simple gradient view with IBDesignables."
+  s.description  = "A simple gradient view with IBDesignables that allows you to set colors and gradient direction."
 
   s.homepage     = "https://github.com/sleepwalkerfx/RMGradientView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #s.license      = "MIT (example)"
-   s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
+  #s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Classes", "Classes/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
-
+  s.swift_version = "4.0"
   # s.public_header_files = "Classes/**/*.h"
 
 
