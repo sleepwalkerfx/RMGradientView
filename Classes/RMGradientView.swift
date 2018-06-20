@@ -12,17 +12,17 @@ import UIKit
 class RMGradientView: UIView {
 
     let gradientLayer = CAGradientLayer()
-    @IBInspectable var startColor:UIColor = UIColor.red {
+    @IBInspectable var startColor:UIColor = UIColor.yellow {
         didSet{
             configure()
         }
     }
-    @IBInspectable var midColor:UIColor = UIColor.green {
+    @IBInspectable var midColor:UIColor = UIColor.orange {
         didSet{
             configure()
         }
     }
-    @IBInspectable var endColor:UIColor = UIColor.black {
+    @IBInspectable var endColor:UIColor = UIColor.red {
         didSet{
             configure()
         }
