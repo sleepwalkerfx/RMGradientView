@@ -10,7 +10,6 @@ import UIKit
 
 @IBDesignable
 class RMGradientView: UIView {
-    
     let gradientLayer = CAGradientLayer()
     @IBInspectable var startColor:UIColor = UIColor.yellow {
         didSet{
