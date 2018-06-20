@@ -28,7 +28,7 @@ class RMGradientView: UIView {
         }
     }
     
-    @IBInspectable var direction: UInt = 0 {
+    @IBInspectable var direction: UInt = 1 {
         didSet{
             configure()
         }
