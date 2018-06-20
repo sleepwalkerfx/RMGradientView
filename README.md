@@ -1,6 +1,6 @@
   
 
-# Pod Installation 
+# Installing 
 
 CocoaPods is the preferred way to install this library. Add this command to your `Podfile`:
 
