@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = 'RMGradientView'
-  s.version      = '0.1.2'
+  s.version      = '0.1.3'
   s.summary      = 'A simple gradient view with inspectable properties.'
   s.description  = 'A simple gradient view with IBDesignables that allows you to set colors and gradient direction.'
   s.homepage     = 'https://github.com/sleepwalkerfx/RMGradientView'
