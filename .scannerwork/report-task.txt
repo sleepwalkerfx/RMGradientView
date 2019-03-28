@@ -1,0 +1,7 @@
+organization=sleepwalkerfx-github
+projectKey=sleepwalkerfx_RMGradientView
+serverUrl=https://sonarcloud.io
+serverVersion=7.7.0.22792
+dashboardUrl=https://sonarcloud.io/dashboard?id=sleepwalkerfx_RMGradientView
+ceTaskId=AWmwoGt6jpDOvS2RY2-S
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWmwoGt6jpDOvS2RY2-S

@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.com/sleepwalkerfx/RMGradientView.svg?branch=master)](https://travis-ci.com/sleepwalkerfx/RMGradientView)
+
 <p align="center">
 	<a href="https://swift.org">
 		<img src="https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat">
@@ -8,6 +11,7 @@
 </p>
 
 A Custom Gradient View Control for iOS with inspectable properties.
+
 
 [![RMGradientView](https://img.youtube.com/vi/JA_I5EXuthc/0.jpg)](https://www.youtube.com/watch?v=JA_I5EXuthc)
 

@@ -13,7 +13,18 @@
 		5E3801E320DA711700130F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3801E220DA711700130F7E /* Assets.xcassets */; };
 		5E3801E620DA711700130F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3801E420DA711700130F7E /* LaunchScreen.storyboard */; };
 		5E7E30D620DA79E300BD340C /* RMGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E30D520DA79E300BD340C /* RMGradientView.swift */; };
+		5EBC8294224D338200F55E58 /* RMGradientViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC8293224D338200F55E58 /* RMGradientViewTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EBC8296224D338200F55E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E3801D020DA711600130F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3801D720DA711600130F7E;
+			remoteInfo = RMGradientView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5E3801D820DA711600130F7E /* RMGradientView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMGradientView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +35,20 @@
 		5E3801E520DA711700130F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E3801E720DA711700130F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7E30D520DA79E300BD340C /* RMGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMGradientView.swift; sourceTree = "<group>"; };
+		5EBC8291224D338200F55E58 /* RMGradientViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMGradientViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBC8293224D338200F55E58 /* RMGradientViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGradientViewTests.swift; sourceTree = "<group>"; };
+		5EBC8295224D338200F55E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E3801D520DA711600130F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBC828E224D338200F55E58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +63,7 @@
 			children = (
 				5E7E30D420DA79E300BD340C /* Classes */,
 				5E3801DA20DA711600130F7E /* RMGradientView */,
+				5EBC8292224D338200F55E58 /* RMGradientViewTests */,
 				5E3801D920DA711600130F7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				5E3801D820DA711600130F7E /* RMGradientView.app */,
+				5EBC8291224D338200F55E58 /* RMGradientViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +99,15 @@
 			path = ../Classes;
 			sourceTree = "<group>";
 		};
+		5EBC8292224D338200F55E58 /* RMGradientViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EBC8293224D338200F55E58 /* RMGradientViewTests.swift */,
+				5EBC8295224D338200F55E58 /* Info.plist */,
+			);
+			path = RMGradientViewTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,18 +128,40 @@
 			productReference = 5E3801D820DA711600130F7E /* RMGradientView.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5EBC8290224D338200F55E58 /* RMGradientViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBC829A224D338200F55E58 /* Build configuration list for PBXNativeTarget "RMGradientViewTests" */;
+			buildPhases = (
+				5EBC828D224D338200F55E58 /* Sources */,
+				5EBC828E224D338200F55E58 /* Frameworks */,
+				5EBC828F224D338200F55E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EBC8297224D338200F55E58 /* PBXTargetDependency */,
+			);
+			name = RMGradientViewTests;
+			productName = RMGradientViewTests;
+			productReference = 5EBC8291224D338200F55E58 /* RMGradientViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5E3801D020DA711600130F7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Rukshan Marapana";
 				TargetAttributes = {
 					5E3801D720DA711600130F7E = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					5EBC8290224D338200F55E58 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5E3801D720DA711600130F7E;
 					};
 				};
 			};
@@ -125,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				5E3801D720DA711600130F7E /* RMGradientView */,
+				5EBC8290224D338200F55E58 /* RMGradientViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +192,13 @@
 				5E3801E620DA711700130F7E /* LaunchScreen.storyboard in Resources */,
 				5E3801E320DA711700130F7E /* Assets.xcassets in Resources */,
 				5E3801E120DA711600130F7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBC828F224D338200F55E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +215,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5EBC828D224D338200F55E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBC8294224D338200F55E58 /* RMGradientViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EBC8297224D338200F55E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3801D720DA711600130F7E /* RMGradientView */;
+			targetProxy = 5EBC8296224D338200F55E58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5E3801DF20DA711600130F7E /* Main.storyboard */ = {
@@ -293,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TM9F73ME;
 				INFOPLIST_FILE = RMGradientView/Info.plist;
@@ -302,6 +381,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appnotized.RMGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TM9F73ME;
 				INFOPLIST_FILE = RMGradientView/Info.plist;
@@ -320,8 +401,54 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appnotized.RMGradientView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EBC8298224D338200F55E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62TM9F73ME;
+				INFOPLIST_FILE = RMGradientViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appnotized.RMGradientViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMGradientView.app/RMGradientView";
+			};
+			name = Debug;
+		};
+		5EBC8299224D338200F55E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62TM9F73ME;
+				INFOPLIST_FILE = RMGradientViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appnotized.RMGradientViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMGradientView.app/RMGradientView";
 			};
 			name = Release;
 		};
@@ -342,6 +469,15 @@
 			buildConfigurations = (
 				5E3801EB20DA711700130F7E /* Debug */,
 				5E3801EC20DA711700130F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBC829A224D338200F55E58 /* Build configuration list for PBXNativeTarget "RMGradientViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBC8298224D338200F55E58 /* Debug */,
+				5EBC8299224D338200F55E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
