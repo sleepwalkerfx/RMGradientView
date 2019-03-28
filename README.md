@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.com/sleepwalkerfx/RMGradientView.svg)](https://travis-ci.com/sleepwalkerfx/RMGradientView)
+[![Build Status](https://travis-ci.com/sleepwalkerfx/RMGradientView.svg?branch=master)](https://travis-ci.com/sleepwalkerfx/RMGradientView)
 
 <p align="center">
 	<a href="https://swift.org">
